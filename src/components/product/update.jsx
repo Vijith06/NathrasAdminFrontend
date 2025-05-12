@@ -1415,8 +1415,8 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { useParams, useNavigate } from 'react-router-dom';
 
-const SIZES = ['S', 'M', 'L', 'XL'];
-const CATEGORIES = ['Dresses', 'Women', 'Men', 'Kids'];
+const SIZES = ['S', 'M', 'L', 'XL', 'XXL', 'XXXL'];
+const CATEGORIES = ['Men', 'Women', 'Casual', 'Party', 'Formal', 'Beach wear', 'In stock', 'Out of stock'];
 
 export default function UpdateProduct() {
   const { id } = useParams();

@@ -222,8 +222,8 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 
-const SIZES = ['S', 'M', 'L', 'XL'];
-const CATEGORIES = ['Dresses', 'Women', 'Men', 'Kids'];
+const SIZES = ['S', 'M', 'L', 'XL', 'XXL', 'XXXL'];
+const CATEGORIES = ['Men', 'Women', 'Casual', 'Party', 'Formal', 'Beach wear', 'In stock', 'Out of stock'];
 
 export default function AddProduct() {
   const [formData, setFormData] = useState({
